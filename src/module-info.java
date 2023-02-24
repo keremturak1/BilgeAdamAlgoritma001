@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author kerem
+ *
+ */
+module BilgeAdamAlgoritma {
+}
