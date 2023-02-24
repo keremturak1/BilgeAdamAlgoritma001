@@ -118,6 +118,16 @@ public class Main {
 		System.out.println(account2.getMoney());
 		userManger.nakitAvansBasvurusundaBulun(account2, 5000);
 		System.out.println(account2.getNakitAvansBorcu());
+		
+		userManger.krediBorcunuOde(account2, 30000);
+		System.out.println(account2.getMoney());
+		userManger.hesaptanKrediBorcunuOde(account2, 1000);
+		System.out.println(account2.getMoney());
+		userManger.nakitAvansBasvurusundaBulun(account2, 5000);
+		System.out.println(account2.getNakitAvansBorcu());
+	
+	
+	
 	
 		
 		
